@@ -1,17 +1,7 @@
 ---
 downloads: ~/.ansible-downloads/
 
-configure_dotfiles: true
 configure_terminal: true
-configure_osx: true
-
-dotfiles_repo: https://github.com/simonphumin/dotfiles.git
-dotfiles_repo_accept_hostkey: true
-dotfiles_repo_local_destination: ~/dev/github/dotfiles
-dotfiles_files:
-  - .zshrc
-  - .gitignore
-  - .osx
 
 homebrew_installed_packages:
   - aom
@@ -79,8 +69,6 @@ mas_installed_apps:
   - { id: 1206020918, name: "Battery Indicator" }
 mas_email: ""
 mas_password: ""
-
-osx_script: "~/.osx --no-restart"
 
 # Install packages from other package managers.
 # Note: You are responsible for making sure the required package managers are
