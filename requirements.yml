@@ -1,0 +1,10 @@
+---
+roles:
+  - name: elliotweiser.osx-command-line-tools
+  - name: geerlingguy.dotfiles
+  - name: gantsign.oh-my-zsh # role to install oh-my-zsh
+  - name: diodonfrost.p10k # role to install the powerlevel10k oh-my-zsh theme
+
+collections:
+  - name: geerlingguy.mac
+  - name: community.general # neede to configure npm packages with yarn
