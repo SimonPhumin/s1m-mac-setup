@@ -5,6 +5,7 @@ rules:
   line-length:
     max: 180
     level: warning
+  braces: { min-spaces-inside: 1, max-spaces-inside: 2 }
 
 ignore: |
   .github/stale.yml
