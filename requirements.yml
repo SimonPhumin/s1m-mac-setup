@@ -1,7 +1,6 @@
 ---
 roles:
   - name: elliotweiser.osx-command-line-tools
-  - name: geerlingguy.dotfiles
     # role to install oh-my-zsh
   - name: gantsign.oh-my-zsh
     # role to install the powerlevel10k oh-my-zsh theme

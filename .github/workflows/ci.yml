@@ -11,7 +11,7 @@ on:
 
 jobs:
   lint:
-    name: Lint
+    name: Lint & Setup
     runs-on: ubuntu-latest
     steps:
       - name: Check out the codebase.
