@@ -17,4 +17,4 @@ rules:
 
 ignore: |
   .github/stale.yml
-  .roles
+  roles/*
