@@ -104,20 +104,20 @@ npm_yarn_packages:
   - name: "@angular/cli"
     state: present
     version: "^15.2"
-  # - { name: "n", state: latest }
-  # - { name: "@angular/cli", state: present, version: "^15.2" }
-  # - name: serverless
-  #   state: latest
-  # - name: npm-check-updates
-  #   state: latest
-  # - name: pa11y
-  #   state: latest
-  # - name: vercel
-  #   state: latest
-  # - name: vsce
-  #   state: latest
-  # - name: yo
-  #   state: latest
+    # - { name: "n", state: latest }
+    # - { name: "@angular/cli", state: present, version: "^15.2" }
+    # - name: serverless
+    #   state: latest
+    # - name: npm-check-updates
+    #   state: latest
+    # - name: pa11y
+    #   state: latest
+    # - name: vercel
+    #   state: latest
+    # - name: vsce
+    #   state: latest
+    # - name: yo
+    #   state: latest
 
 # Python packages
 pip_packages: []

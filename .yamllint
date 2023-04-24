@@ -7,8 +7,10 @@ rules:
     level: warning
   brackets:
     level: warning
+    max-spaces-inside: 2
   braces:
     level: warning
+    max-spaces-inside: 2
   colons:
     level: warning
   indentation:
@@ -16,5 +18,5 @@ rules:
     indent-sequences: consistent
 
 ignore: |
-  .github/stale.yml
+  .github/*
   roles/*
