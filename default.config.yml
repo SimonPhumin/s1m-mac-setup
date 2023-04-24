@@ -1,7 +1,7 @@
 ---
 downloads: ~/.ansible-downloads/
 
-configure_terminal: true
+configure_terminal: false
 
 homebrew_installed_packages:
   - aom
