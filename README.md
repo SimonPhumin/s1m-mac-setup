@@ -62,6 +62,7 @@ pip_packages:
 
 ### Applications (installed with Homebrew Cask)
 
+```yaml
 - podman
 - dropbox
 - firefox
@@ -86,6 +87,9 @@ pip_packages:
 - miro
 - qlmarkdown
 - packages
+```
+
+### Applications installed via AppStore (mas)
 
 - [Podman](https://podman.io/)
 - [Dropbox](https://www.dropbox.com/)
@@ -95,6 +99,7 @@ pip_packages:
 
 ### Packages (installed with Homebrew)
 
+```yaml
 - aom
 - cloudflared
 - composer
@@ -123,9 +128,11 @@ pip_packages:
 - openssl
 - yarn
 - wget
+```
 
 ## Applications (installed via AppStore and mas)
 
+```yaml
 - { id: 1206020918, name: "Battery Indicator" }
 - { id: 497799835, name: "Xcode" }
 - { id: 784801555, name: "Microsoft OneNote" }
@@ -133,6 +140,7 @@ pip_packages:
 - { id: 985367838, name: "Microsoft Outlook" }
 - { id: 462054704, name: "Microsoft Word" }
 - { id: 462062816, name: "Microsoft PowerPoint" }
+```
 
 ## Testing
 
