@@ -1,9 +1,9 @@
 ---
 collections:
-  - name: geerlingguy.mac
   - name: community.general
 
 roles:
   - name: elliotweiser.osx-command-line-tools
   - name: gantsign.oh-my-zsh
-  - name: diodonfrost.p10k
+  - name: geerlingguy.mac.homebrew
+  - name: geerlingguy.mac.mas
