@@ -1,6 +1,8 @@
 ---
 roles:
   - name: elliotweiser.osx-command-line-tools
+  - name: geerlingguy.mac.homebrew
+  - name: geerlingguy.mac.mas
   - name: gantsign.oh-my-zsh
   - name: diodonfrost.p10k
 
