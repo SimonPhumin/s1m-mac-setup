@@ -28,6 +28,7 @@ homebrew_installed_packages:
   - php
   - screenresolution
   - snappy
+  - syncthing
   - openssl
   - yarn
   - wget
@@ -65,8 +66,14 @@ homebrew_cask_apps:
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
-  - { id: 497799835, name: "Xcode" }
   - { id: 1206020918, name: "Battery Indicator" }
+  - { id: 497799835, name: "Xcode" }
+  - { id: 784801555, name: "Microsoft OneNote" }
+  - { id: 462058435, name: "Microsoft Excel" }
+  - { id: 985367838, name: "Microsoft Outlook" }
+  - { id: 462054704, name: "Microsoft Word" }
+  - { id: 462062816, name: "Microsoft PowerPoint" }
+# TODO: add login info
 mas_email: ""
 mas_password: ""
 
@@ -79,20 +86,23 @@ npm_yarn_packages:
   # - name: "@angular/cli"
   #   state: present # present/absent/latest, default: present
   #   version: "^15.2" # default: N/A
-  - { name: "n", state: latest }
-  - { name: "@angular/cli", state: present, version: "^15.2" }
-  - name: serverless
-    state: latest
-  - name: npm-check-updates
-    state: latest
-  - name: pa11y
-    state: latest
-  - name: vercel
-    state: latest
-  - name: vsce
-    state: latest
-  - name: yo
-    state: latest
+  - name: "@angular/cli"
+    state: present # present/absent/latest, default: present
+    version: "^15.2" # default: N/A
+  # - { name: "n", state: latest }
+  # - { name: "@angular/cli", state: present, version: "^15.2" }
+  # - name: serverless
+  #   state: latest
+  # - name: npm-check-updates
+  #   state: latest
+  # - name: pa11y
+  #   state: latest
+  # - name: vercel
+  #   state: latest
+  # - name: vsce
+  #   state: latest
+  # - name: yo
+  #   state: latest
 
 # Python packages
 pip_packages: []
