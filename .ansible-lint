@@ -7,3 +7,5 @@ skip_list:
   - name[missing]
   - no-changed-when
   - risky-file-permissions
+  - yaml[list-length]
+  - name[casing]
