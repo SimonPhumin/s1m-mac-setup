@@ -20,7 +20,6 @@ rules:
   truthy:
     level: warning
 
-ignore: |
-  .github/*
-  roles/*
-  roles/elliotweiser.osx-command-line-tools/tasks/main.yml
+ignore:
+  - .github/*
+  - roles
