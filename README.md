@@ -89,14 +89,6 @@ pip_packages:
 - packages
 ```
 
-### Applications installed via AppStore (mas)
-
-- [Podman](https://podman.io/)
-- [Dropbox](https://www.dropbox.com/)
-- [Firefox](https://www.mozilla.org/en-US/firefox/new/)
-- [Google Chrome](https://www.google.com/chrome/)
-- [Homebrew](http://brew.sh/)
-
 ### Packages (installed with Homebrew)
 
 ```yaml

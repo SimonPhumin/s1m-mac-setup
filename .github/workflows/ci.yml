@@ -30,7 +30,7 @@ jobs:
 
       - name: Lint code.
         run: |
-          yamllint -d relaxed .
+          yamllint --no-warnings .
           ansible-lint
 
   integration:

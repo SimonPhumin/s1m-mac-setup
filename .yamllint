@@ -13,10 +13,13 @@ rules:
     max-spaces-inside: 2
   colons:
     level: warning
+  document-start:
+    level: warning
   indentation:
     level: warning
-    indent-sequences: consistent
+  truthy:
+    level: warning
 
 ignore: |
   .github/*
-  ./roles
+  roles/*
