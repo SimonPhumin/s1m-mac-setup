@@ -14,3 +14,5 @@ homebrew_installed_packages:
 homebrew_cask_apps:
   - firefox
   - licecap
+
+mas_installed_apps: []
