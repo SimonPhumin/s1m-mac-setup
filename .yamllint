@@ -1,13 +1,21 @@
 ---
 extends: default
-
+ignore: |
+  .github/*
+  roles/*
 rules:
   line-length:
+    max: 180
     level: warning
+  brackets:
+    level: warning
+    max-spaces-inside: 2
   braces:
     level: warning
     max-spaces-inside: 2
-
-ignore:
-  - .github/*
-  - roles
+  colons:
+    level: warning
+  document-start:
+    level: warning
+  indentation:
+    level: warning
