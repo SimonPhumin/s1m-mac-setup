@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/simonphumin/mac-dev-playbook/main/files/s1m-device.svg" width="250" alt="Mac Ansible Setup Logo - Shape of a Macbook with Simon Phumin Schweikert's Logo" />
+<img src="https://raw.githubusercontent.com/SimonPhumin/s1m-mac-setup/9343e58c79f8f833cff32d692595447428a0bddf/files/s1m-device.svg" width="250" alt="Mac Ansible Setup Logo - Shape of a Macbook with Simon Phumin Schweikert's Logo" />
 
 # Mac Setup Ansible Playbook
 
