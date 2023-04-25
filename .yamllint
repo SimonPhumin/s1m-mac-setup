@@ -3,22 +3,10 @@ extends: default
 
 rules:
   line-length:
-    max: 180
     level: warning
-  brackets:
-    level: warning
-    max-spaces-inside: 2
   braces:
     level: warning
     max-spaces-inside: 2
-  colons:
-    level: warning
-  document-start:
-    level: warning
-  indentation:
-    level: warning
-  truthy:
-    level: warning
 
 ignore:
   - .github/*
