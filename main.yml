@@ -20,8 +20,10 @@
       when: mas_installed_apps or mas_installed_app_ids
       tags: ["mas"]
     - role: gantsign.oh-my-zsh
+      when: ohmyzsh
       tags: ["ohmyzsh"]
     - role: diodonfrost.p10k
+      when: powerlevel10k
       tags: ["p10k"]
 
   tasks:

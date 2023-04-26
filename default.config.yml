@@ -12,7 +12,7 @@ ohmyzsh:
         update_frequency: 3
         write_zshrc: false
 
-p10k:
+powerlevel10k:
   zsh_plugin: ohmyzsh
   p10k_prompt_time: "24-hour"
   p10k_prompt_separator: "angled"
