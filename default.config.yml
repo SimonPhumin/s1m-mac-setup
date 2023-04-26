@@ -3,7 +3,7 @@ downloads: ~/.ansible-downloads/
 
 ohmyzsh:
   users:
-    - username: git
+    - username: runner
       oh_my_zsh:
         theme: powerlevel10k/powerlevel10k
         plugins:
