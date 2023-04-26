@@ -46,6 +46,9 @@ jobs:
       - name: Check out the codebase.
         uses: actions/checkout@v3
 
+      - name: Show current user name
+        run: echo "$USER"
+
       - name: Uninstall GitHub Actions' built-in Homebrew.
         run: tests/uninstall-homebrew.sh
 

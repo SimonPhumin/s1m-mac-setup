@@ -46,10 +46,13 @@ homebrew_installed_packages:
   - go
 
 mas_installed_apps:
-  - { id: 443987910, name: "1Password" }
-  - { id: 498486288, name: "Quick Resizer" }
-  - { id: 557168941, name: "Tweetbot" }
+  - { id: 1206020918, name: "Battery Indicator" }
   - { id: 497799835, name: "Xcode" }
+  - { id: 784801555, name: "Microsoft OneNote" }
+  - { id: 462058435, name: "Microsoft Excel" }
+  - { id: 985367838, name: "Microsoft Outlook" }
+  - { id: 462054704, name: "Microsoft Word" }
+  - { id: 462062816, name: "Microsoft PowerPoint" }
 
 npm_yarn_packages:
   - name: webpack
@@ -87,6 +90,7 @@ pip_packages:
 - miro
 - qlmarkdown
 - packages
+- zeplin
 ```
 
 ### Packages (installed with Homebrew)

@@ -2,7 +2,15 @@
 downloads: ~/.ansible-downloads/
 
 ohmyzsh:
-  zsh_plugin: ohmyzsh
+  users:
+    - username: git
+      oh_my_zsh:
+        theme: powerlevel10k/powerlevel10k
+        plugins:
+          - git
+        update_mode: reminder
+        update_frequency: 3
+        write_zshrc: false
 
 p10k:
   zsh_plugin: ohmyzsh
@@ -78,6 +86,7 @@ homebrew_cask_apps:
   - miro
   - qlmarkdown
   - packages
+  - zeplin
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
