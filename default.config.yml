@@ -48,7 +48,7 @@ homebrew_installed_packages:
   - git
   - libevent
   - sqlite
-  - node
+  - node@18
   - php
   - screenresolution
   - snappy
