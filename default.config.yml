@@ -1,30 +1,28 @@
 ---
 downloads: ~/.ansible-downloads/
 
-ohmyzsh:
-  users:
-    - username: runner
-      oh_my_zsh:
-        theme: powerlevel10k/powerlevel10k
-        plugins:
-          - git
-        update_mode: reminder
-        update_frequency: 3
-        write_zshrc: false
+users:
+  - username: runner
+    oh_my_zsh:
+      theme: powerlevel10k/powerlevel10k
+      plugins:
+        - git
+      update_mode: reminder
+      update_frequency: 3
+      write_zshrc: false
 
-powerlevel10k:
-  zsh_plugin: ohmyzsh
-  p10k_prompt_time: "24-hour"
-  p10k_prompt_separator: "angled"
-  p10k_prompt_head: "sharp"
-  p10k_prompt_tails: flat
-  p10k_prompt_height: one-line
-  p10k_prompt_connection: disconnected
-  p10k_prompt_connection_color: "dark"
-  p10k_prompt_frame: left
-  p10k_prompt_spacing: compact
-  p10k_prompt_flow: concise
-  p10k_transient_prompt: "no"
+zsh_plugin: ohmyzsh
+p10k_prompt_time: "24-hour"
+p10k_prompt_separator: "angled"
+p10k_prompt_head: "sharp"
+p10k_prompt_tails: flat
+p10k_prompt_height: one-line
+p10k_prompt_connection: disconnected
+p10k_prompt_connection_color: "dark"
+p10k_prompt_frame: left
+p10k_prompt_spacing: compact
+p10k_prompt_flow: concise
+p10k_transient_prompt: "no"
 
 homebrew_installed_packages:
   - aom
