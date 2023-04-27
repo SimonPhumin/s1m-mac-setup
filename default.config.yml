@@ -1,6 +1,9 @@
 ---
 downloads: ~/.ansible-downloads/
 
+ohmyzsh: true
+powerlevel10k: true
+
 users:
   - username: runner
     oh_my_zsh:
