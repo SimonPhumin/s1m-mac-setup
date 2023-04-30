@@ -10,7 +10,7 @@ homebrew_installed_packages:
   - pv
   - wget
   - wrk
-  - node@18
+  - node
 
 homebrew_cask_apps:
   - firefox
