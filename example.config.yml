@@ -1,0 +1,141 @@
+---
+downloads: ~/.ansible-downloads/
+
+ohmyzsh: true
+powerlevel10k: true
+
+users:
+  - username: runner
+    oh_my_zsh:
+      theme: powerlevel10k/powerlevel10k
+      plugins:
+        - git
+      update_mode: reminder
+      update_frequency: 3
+      write_zshrc: false
+
+zsh_plugin: ohmyzsh
+p10k_prompt_time: "24-hour"
+p10k_prompt_separator: "angled"
+p10k_prompt_head: "sharp"
+p10k_prompt_tails: flat
+p10k_prompt_height: one-line
+p10k_prompt_connection: disconnected
+p10k_prompt_connection_color: "dark"
+p10k_prompt_frame: left
+p10k_prompt_spacing: compact
+p10k_prompt_flow: concise
+p10k_transient_prompt: "no"
+
+homebrew_installed_packages:
+  - aom
+  - cloudflared
+  - composer
+  - ctop
+  - curl
+  - cyberduck
+  - exiftool
+  - flyctl
+  - fontconfig
+  - hcloud
+  - htop
+  - httpd
+  - macos-term-size
+  - mkcert
+  - mono
+  - n
+  - python@3.11
+  - git
+  - libevent
+  - sqlite
+  - node
+  - php
+  - screenresolution
+  - snappy
+  - syncthing
+  - openssl
+  - yarn
+  - wget
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - podman
+  - dropbox
+  - firefox
+  - google-chrome
+  - visual-studio-code
+  - postman
+  - adobe-creative-cloud
+  - figma
+  - sketch
+  - keepassxc
+  - slack
+  - webex
+  - warp
+  - iterm2
+  - imageoptim
+  - vlc
+  - keka
+  - karabiner-elements
+  - fontforge
+  - rectangle-pro
+  - onyx
+  - miro
+  - qlmarkdown
+  - packages
+  - zeplin
+
+# See `geerlingguy.mas` role documentation for usage instructions.
+mas_installed_apps:
+  - { id: 1206020918, name: "Battery Indicator" }
+  - { id: 497799835, name: "Xcode" }
+  - { id: 784801555, name: "Microsoft OneNote" }
+  - { id: 462058435, name: "Microsoft Excel" }
+  - { id: 985367838, name: "Microsoft Outlook" }
+  - { id: 462054704, name: "Microsoft Word" }
+  - { id: 462062816, name: "Microsoft PowerPoint" }
+
+# you need to add your AppStore / iCloud login info in a custom config.yml
+mas_email: ""
+mas_password: ""
+
+# Install packages from other package managers.
+# Note: You are responsible for making sure the required package managers are
+# installed, eg. through homebrew.
+
+# Node packages
+npm_yarn_packages:
+  # - name: "@angular/cli"
+  #   state: present # present/absent/latest, default: present
+  #   version: "^15.2" # default: N/A
+  - name: "@angular/cli"
+    state: present
+    version: "^15.2"
+  - name: serverless
+    state: latest
+  - name: npm-check-updates
+    state: latest
+  - name: pa11y
+    state: latest
+  - name: vercel
+    state: latest
+  - name: vsce
+    state: latest
+  - name: yo
+    state: latest
+
+# Python packages
+pip_packages:
+  # - name: mkdocs
+  #   state: present # present/absent/latest, default: present
+  #   version: "0.16.3" # default: N/A
+  - name: yamllint
+    state: present
+    version: "N/A"
+
+# Glob pattern to ansible task files to run after all other tasks are finished.
+post_provision_tasks: []
