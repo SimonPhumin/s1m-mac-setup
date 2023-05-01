@@ -4,6 +4,7 @@ downloads: ~/.ansible-downloads/
 ohmyzsh: true
 powerlevel10k: true
 
+# needed to configure oh-my-zsh for any user
 users:
   - username: runner
     oh_my_zsh:
@@ -14,6 +15,7 @@ users:
       update_frequency: 3
       write_zshrc: false
 
+# neede to configure p10k for oh-my-zsh
 zsh_plugin: ohmyzsh
 p10k_prompt_time: "24-hour"
 p10k_prompt_separator: "angled"
@@ -44,6 +46,7 @@ homebrew_installed_packages:
   - mkcert
   - mono
   - n
+  - podman
   - python@3.11
   - git
   - libevent
@@ -63,7 +66,6 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - podman
   - dropbox
   - firefox
   - google-chrome
