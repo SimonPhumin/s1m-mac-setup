@@ -29,6 +29,11 @@ p10k_prompt_spacing: compact
 p10k_prompt_flow: concise
 p10k_transient_prompt: "no"
 
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+  - fwartner/tap
+
 homebrew_installed_packages:
   - aom
   - cloudflared
@@ -58,10 +63,7 @@ homebrew_installed_packages:
   - openssl
   - yarn
   - wget
-
-homebrew_taps:
-  - homebrew/core
-  - homebrew/cask
+  - fwartner/tap/mac-cleanup
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:

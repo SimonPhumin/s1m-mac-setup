@@ -4,11 +4,12 @@ downloads: ~/.ansible-downloads/
 ohmyzsh: false
 powerlevel10k: false
 
-homebrew_installed_packages: []
-
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
+  - fwartner/tap
+
+homebrew_installed_packages: []
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps: []

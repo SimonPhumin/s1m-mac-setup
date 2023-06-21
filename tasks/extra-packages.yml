@@ -5,7 +5,6 @@
     state: "{{ item.state | default('present') }}"
     version: "{{ item.version | default(omit) }}"
     global: true
-    # executable: "{{ item.executable | default(omit) }}"
   loop: "{{ npm_yarn_packages }}"
 
 - name: Install global Pip packages.
